@@ -1,0 +1,523 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="gridflex-style.css">
+<link href="https://fonts.googleapis.com/css?family=Prompt:800i&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap" rel="stylesheet">
+<title>Caleb Stewart - Design Portfolio</title>
+
+</head>
+
+<body>
+
+
+<div id="navbar">
+  
+  	<div class="header">
+    
+                <a id="logoTop">
+                    <div class="circleLogo">
+                    
+                    </div>
+                    
+                   	<strong id="logoName">Caleb Stewart</strong>
+                    
+               	</a>
+                
+     <div class="socBtns">    
+   		<img id="social" src="social-twit-000033.png"/>
+   		<img id="social" src="social-inst-000033.png"/>
+   		<img id="social" src="social-fb-000033.png"/>
+     </div>
+        
+        
+	</div>
+    
+	<div class="navbar">
+    
+  		<a href="index.html">Home</a>
+  		<a href="blog.html">Blog</a>
+  		<a href="photography.html">Photography</a>
+  		<a href="freelance.html">Freelance</a>
+        <a id="portBtn" style="cursor:pointer" onclick="myDivOpen()">Portfolio <span style="font-size:16px">&#9660</span> </a>
+        <a href="contact.html" style="float:right; clear:none; color:#FFFFFF" id="right">Contact</a>
+  		<a href="shop.html" style="float:right; clear:none; color:#FFFFFF"  id="right">Shop</a>    
+        
+    </div>
+    
+    <div id="myDIV">
+       <a href="#">Logo Design</a>
+       <a href="#">Corporate Identity</a>
+       <a href="#">Social Networking</a>
+       <a href="#">Print Media</a>
+    </div>
+    
+</div>
+
+<div class="altnav2">
+
+	<a href="index.html"><img src="MY-LOGO.png" style="float:none; height:50px; width:auto; display:none"/></a>
+
+	<span style="font-size:30px;cursor:pointer;color:#000033; float:left; margin:3px 20px 0 10px" onclick="openNav()">&#9776;</span>
+		
+    <div id="myNav" class="overlay">
+    	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    		<div class="overlay-content">
+    			<a href="index.html">Home</a>
+    			<a href="blog.html">Blog</a>
+    			<a href="photography.html">Photography</a>
+                <a href="portfolio.html">Freelance</a>
+    			<a href="portfolio.html">Portfolio</a>
+                <a href="portfolio.html">Shop</a>
+    			<a href="contact.html">Contact</a>
+    		</div>
+	</div>
+    
+</div>
+
+<script src="script.js"></script>
+
+
+<div id="TopAd">
+ 
+ 	
+	<a style=" display:none" class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	<a style=" display:none" class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+	
+
+ 
+</div>
+
+
+<div class="allContent">
+<div class="one">
+
+	<div class="social">
+    	<img src="social-fb-000033.png" />
+    	<img src="social-inst-000033.png" />
+    	<img src="social-twit-000033.png" />
+    </div>
+    
+		<br />
+        
+	<div class="content">
+    
+        <br />
+        
+		<h6>Clearer Vision Between Client And Designer</h6>
+        <h2>Hello!</h2>
+        <p>Welcome to my  graphic design portfolio. Be sure and read through my information-filled-blog, 
+        that will help us relate on a designer-to-client level. Also a relationship that makes it much easier and
+        way more time efficient. Knowledge of some basic design principles and a clearer direction of what you want 
+        your design to look like, could help save you money in the long run. The portfolio section is a brief 
+        outlook on what i can do for you, as a client. It outlinles areas such as corporate identity, social 
+        networking, logo design, print media, advertising, and web design.</p>
+       
+        	<form id="HelpForm">
+        
+        		<h2>Nice To Meet You!</h2>
+		
+    				<input type="text" id="name" name="firstname" placeholder="First Name.."><br />        
+    				<input type="text" id="name" name="lastname" placeholder="Last Name.."><br />
+    				<input type="text" id="name" name="email" placeholder="Email Address.."><br />
+                
+        		<h2>How Can I Help?</h2>
+        
+            		<input name="HelpBox" type="checkbox" id="HelpBox"/> 
+                		<label>Corporate Identity</label><br />
+            		<input name="HelpBox" type="checkbox" id="HelpBox"/> 
+                		<label>Social Network</label><br />
+            		<input name="HelpBox" type="checkbox" id="HelpBox"/> 
+                		<label>Print Media</label><br />
+            		<input name="HelpBox" type="checkbox" id="HelpBox"/> 
+                		<label>Logo Design</label><br />
+                    
+                    		<br />
+             	
+                <textarea name="comments" cols="25" rows="10" placeholder="Comments.."></textarea> <br />
+                
+              	<input style="background-color:#cccccc; color:#000000; border:none; border-radius:5px; font-size:12px" type="submit" value="Send" onclick="Function MyFunction()">
+             
+             </form> 
+              
+        <h2>Thank You!</h2>
+        
+        <div class="home-about">
+    
+    	<h1>About</h1>
+        
+        <img margin="auto" width="100%" height="auto" src="profile-pic.jpg" />
+        
+        <p>
+        
+        	<h2><strong>Name:</strong> Caleb Stewart</h2>
+            <h2><strong>Age:</strong> 29</h2>
+            
+            <h2><strong>About: <br /></strong></h2>
+            <a href="">Download Resume</a>
+            
+            <h2><strong>Computer Skills:</strong></h2>
+            
+             Photoshop <br />
+            <div class="inline-bar show-on-scroll">100%</div>
+            Illustrator <br />
+            <div class="inline-bar show-on-scroll">100%</div>
+            InDesign <br />
+            <div class="inline-bar show-on-scroll">100%</div>
+            Dreamweaver <br />
+            <div class="inline-bar show-on-scroll">100%</div>
+            After Effects<br />
+            <div style="max-width:90%" class="inline-bar show-on-scroll">90%</div>
+            Flash <br />
+            <div style="max-width:80%"  class="inline-bar show-on-scroll">80%</div>
+            3D Max <br />
+            <div style="max-width:75%"  class="inline-bar show-on-scroll">75%</div>
+            
+            <h2><strong>Other Interests:</strong></h2>
+		
+<script src="script.js"></script>
+     		
+       <div class="pie-chart">
+           
+           		 <img id="chart" src="pie-chart.png" />
+                 
+                 <br />
+            
+             <a onclick="dropPie()" onmouseover="frontEnd()" onmouseout="frontEndout()" id="pie-link">
+               <img src="bluTic.png" /> Scrum <span style="float:right">%35 &#9660</span>
+               		<div id="frontPie">
+                    
+                    	<p>Designing css/html files. Sending them to host. Adobe design. Slideshow editting. Action scripting.</p>
+                    
+                    </div>
+             </a>
+             
+             <br />
+             
+            <a onclick="dropPie2()" onmouseover="webDev()" onmouseout="webDevout()"  id="pie-link2">
+               <img src="bluTic.png" /> Web Dev <span style="float:right">%40 &#9660</span>
+               		<div id="webPie">
+                    
+                    	<p>Designing css/html files. Sending them to host. Adobe design. Slideshow editting. Action scripting.</p>
+                    
+                    </div>
+            </a>
+            
+            <br />
+            
+            <a onclick="dropPie3()" onmouseover="UI()" onmouseout="UIout()" id="pie-link3">
+            	<img src="bluTic.png" /> UI <span style="float:right">%25 &#9660</span>
+                	<div id="UIPie">
+                    
+                    	<p>Designing css/html files. Sending them to host. Adobe design. Slideshow editting. Action scripting.</p>
+                    
+                    </div>
+            </a>
+            
+		</div>	 	
+    
+    </div>	
+    
+    </div>
+    
+    
+    
+ </div>
+
+<div class="two">
+	<div class="main">
+ <h1 style="color:#000000; font-size:36px">Freelance</h1>  	
+  <h2 style="color:#000000;">Athletes Church</h2>
+  <img id="img1" src="ac15.jpg" />
+  <img id="img1" src="ac14.jpg" />
+  <img id="img1" src="ac12.jpg" />
+  <img id="img1" src="ac13.jpg" />
+  <img id="img1" src="ac7.jpg" />
+  <img id="img1" src="ac8.jpg" />
+  <img id="img1" src="ac9.jpg" />
+  <img id="img1" src="ac10.jpg" />
+  <img id="img1" src="ac6.jpg" />
+  <img id="img1" src="ac4.jpg" />
+  
+  <br /> 
+    
+  <p style="display:none" id="maintext">
+  			
+  Athlete's Church was designed to allow young athletes the oppurtunity to both worship Jesus and play sports on Sundays. While playing in summer leagues most of the time the kids would play in tournaments, which required you to play on Sundays. While working with Athlete's Church I designed shirtrs, flyers, webpage, app, social media, jerseys, window decals, and tournament ticket design.
+ <br /><br />
+        </p>
+	<h2 style="color:#000000">Adam's Primate Rescue Center</h2>        
+  <img id="img2" src="adams4.jpg" />
+  <img id="img2" src="adams1.jpg" />
+  <img id="img2" src="adams3.jpg" />
+   <br />
+	
+    <p style="display:none" id="maintext">
+
+  Adam's Primate Rescue Center was, in the process of being, the largest rescue center in Oklahoma. It was supposed to be located in Chickisha, Oklahoma. Adam's was going to house all species of primate. It was a freelance job that I came across through a relative, who owned a printing business. They wanted me to design a logo, and do some illustrations for "Adam" and some primates. Also, I designed some shirts and exterior signage.
+ <br /><br />
+        </p>
+<h2 style="color:#000000">Saber Compliance Solutions</h2>   
+  <img id="img1" src="scs3.jpg" />
+  <img id="img1" src="scs2.jpg" />
+  <img id="img3" style="margin-bottom:20px" src="scs1.jpg" /> <br />
+
+<p style="display:none" id="maintext">
+	
+  Saber Compliance Solutions is the process of being, the largest rescue center in Oklahoma. It was supposed to be located in Chickisha, Oklahoma. Adam's was going to house all species of primate. It was a freelance job that I came across through a relative, sss owns a printing business. They wanted me to design a logo, and do some illustrations for "Adam" and some primates. Also, I designed some shirts and exterior signage.
+ <br /><br />
+        </p>
+		
+<h2 style="color:#000000">Berkshire Hathaway Home Services & Anderson Properties</h2>  
+  		<img id="img3" src="bhhs-billboard.pdf" />
+        <img id="img1" src="bhhs3.jpg" />
+        <img id="img1" src="bhhs32.jpg" />
+        
+        <p style="display:none" id="maintext">
+	
+  Athlete's Church is organization run by Pete Benes. It was designed to allow young athletes the oppurtunity to both worship Jesus and play sports on Sundays. While playing in summer leagues most of the time the kids would play in tournaments, which required you to play on Sundays. While working with Athlete's Church I designed shirtrs, flyers, webpage, app, social media, jerseys, window decals, and tournament ticket design.
+ <br /><br />
+        </p>
+        
+	</div>
+</div>
+<div class="three">
+	<div class="portfolio">
+		<h1>Portfolio</h1>
+     		<div id="three-port">
+				<img class="inline-portphoto show-on-scroll" style="border:thin solid #E8E8E8; height:auto" src="sust-gar-bg1.jpg" />
+    				<p id="port-text">
+						<h2>Logo<br /> Design</h2>
+  							Logo design is a process of eliminiation. A great logo takes many tries before it is perfect.
+                            There are different kinds of logos. (Abstract, Emblem, Letter-mark etc..). Picking the right one 
+                            can be difficult at times, there is a need for many options. Click below to learn how this process of elimination 
+                            takes place.
+                            <br /><br />
+  								<a id="click">Click Here</a>
+        			</p>
+      		</div>
+            <div id="three-port">
+				<img class="inline-portphoto show-on-scroll" style="border:thin solid #E8E8E8; height:auto"  src="aqola-bg.jpg" />
+    				<p id="port-text">
+						<h2>Corporate<Br /> Identity</h2>
+  							The logo represents a company and their employees as a team, thus providing unity. The logo should provide both unity and variety. Too 
+                            much unity can cause monotony and become stagnant within a corporation. While too much variety can cause chaos. A balance of
+                            the two should used while placing the logo, and deciding how your company wants to be viewed.
+                            <br /><br /> 
+  								<a id="click">Click Here</a>
+        			</p>
+     		</div>
+      		<div id="three-port">
+				<img class="inline-portphoto show-on-scroll" style="border:thin solid #E8E8E8; height:auto"  src="dark-horse-bg.jpg" />
+    				<p id="port-text">
+						<h2>Social<br /> Networking</h2>
+  							Logo design is a process of eliminiation. A great logo takes many tries before it is perfect.
+                            There are different kinds of logos. (Abstract, Emblem, Letter-mark etc..). Picking the right one 
+                            can be difficult at times, there is need for manny options. Click below to learn how this process of elimination 
+                            takes place.
+                            <br /><br />
+  								<a id="click">Click Here</a>
+        			</p>
+        	</div>
+            <div style="border:none" id="three-port">
+				<img class="inline-portphoto show-on-scroll" style="border:thin solid #E8E8E8; height:auto"  src="dark-horse-bg.jpg" />
+    				<p id="port-text">
+						<h2>Print<br /> Media</h2>
+  							Logo design is a process of eliminiation. A great logo takes many tries before it is perfect.
+                            There are different kinds of logos. (Abstract, Emblem, Letter-mark etc..). Picking the right one 
+                            can be difficult at times, there is need for manny options. Click below to learn how this process of elimination 
+                            takes place.
+                            <br /><br />
+  								<a id="click">Click Here</a>
+        			</p>
+        	</div>
+   
+    </div>
+ 
+
+ 
+ <script src="script.js"></script>   
+    
+    <div class="photo">
+    
+    	<h1>Photography</h1>
+        	<div style="border:thin solid #E8E8E8; padding:10px" class="container">
+        		<img src="thumb5.jpg" />
+				<img src="thumb4.jpg" />
+				<img src="thumb3.jpg" />
+				<img src="thumb2.jpg" />
+				<img src="thumb6.jpg" />
+        		<img src="thumb1.jpg" />
+				<img src="thumb7.jpg" />
+				<img src="thumb8.jpg" />
+        		<img src="thumb9.jpg" />
+				<img src="thumb10.jpg" />
+				<img src="thumb11.jpg" />
+				<img src="thumb12.jpg" />
+				<img src="thumb13.jpg" />
+        		<img src="thumb14.jpg" />
+				<img src="thumb15.jpg" />
+				<img src="thumb16.jpg" />
+        		<img src="thumb17.jpg" />
+        		<img src="thumb18.jpg" />
+        		<img src="thumb19.jpg" />
+        	</div>
+        <br />
+        <p id="port-text">
+  			<a id="click">Click Here</a>
+        </p>
+    
+    </div>
+    
+    <div class="shop">
+    
+    	<h1>Shop</h1>
+        	<div style="border:thin solid #E8E8E8; padding:10px" class="container">
+        		<img src="thumb5.jpg" />
+				<img src="thumb4.jpg" />
+				<img src="thumb3.jpg" />
+				<img src="thumb2.jpg" />
+				<img src="thumb6.jpg" />
+        		<img src="thumb1.jpg" />
+				<img src="thumb7.jpg" />
+				<img src="thumb8.jpg" />
+        		<img src="thumb9.jpg" />
+				<img src="thumb10.jpg" />
+				<img src="thumb11.jpg" />
+				<img src="thumb12.jpg" />
+				<img src="thumb13.jpg" />
+        		<img src="thumb14.jpg" />
+				<img src="thumb15.jpg" />
+				<img src="thumb16.jpg" />
+        		<img src="thumb17.jpg" />
+        		<img src="thumb18.jpg" />
+        		<img src="thumb19.jpg" />
+        	</div>
+        <Br />
+        <p id="port-text">
+  			<a id="click">Click Here</a>
+        </p>
+    
+    </div>
+    
+</div>
+
+
+
+<script src="script.js"></script>
+
+<div class="indexfooter">
+
+	<div class="indexfoot-nav">
+    	<a href="index.html">Home</a>
+    	<a href="blog.html">Blog</a>
+    	<a href="photography.html">Photography</a>
+    	<a href="portfolio.html">Portfolio</a>
+    	<a href="contact.html">Contact</a>
+    </div>
+    <div class="foot-social">
+    	<img src="social-fb-ffffff.png" />
+    	<img src="social-inst-ffffff.png" />
+    	<img src="social-twit-ffffff.png" />
+    </div>
+    
+</div>
+
+<div class="parallax">
+
+	<div class="slideshow-container">
+
+		<div class="mySlides fade">
+  			<div class="numbertext">1 / 5</div>
+  				<img src="slide1.jpg" style="width:100%">
+  			<div class="text"></div>
+		</div>
+
+		<div class="mySlides fade">
+  			<div class="numbertext">2 / 5</div>
+  				<img src="slide2.jpg" style="width:100%">
+  			<div class="text"></div>
+		</div>
+
+		<div class="mySlides fade">
+ 			 <div class="numbertext">3 / 5</div>
+  				<img src="slide3.jpg" style="width:100%">
+  			<div class="text"></div>
+		</div>
+
+		<div class="mySlides fade">
+ 			 <div class="numbertext">4 / 5</div>
+  				<img src="slide4.jpg" style="width:100%">
+  			<div class="text"></div>
+		</div>
+
+		<div class="mySlides fade">
+  			<div class="numbertext">5 / 5</div>
+  				<img src="slide5.jpg" style="width:100%">
+  			<div class="text"></div>
+		</div>
+
+			
+
+	</div>
+   
+   <div style="text-align:center; display:none">
+  		<span class="dot" onclick="currentSlide(1)"></span> 
+  		<span class="dot" onclick="currentSlide(2)"></span> 
+  		<span class="dot" onclick="currentSlide(3)"></span> 
+  		<span class="dot" onclick="currentSlide(4)"></span> 
+        <span class="dot" onclick="currentSlide(5)"></span>	
+    </div>
+
+</div>
+<script >
+var slideIndex = 1;
+ showSlides(slideIndex);
+
+var slideIndex = 0;
+carousel();
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length};
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 4000);
+}
+</script>
+
+
+<div id="backtotop">
+<a onclick="function1()">Back To Top</a>
+</div>
+
+</div>
+</body>
+</html>
